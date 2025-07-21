@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # --- Configuration ---
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-MODEL_NAME = "gemini-1.5-flash"  # A fast and capable model
+MODEL_NAME = "gemini-2.0-flash"  # A fast and capable model
 
 # --- System Prompt ---s
 SYSTEM_PROMPT = (
